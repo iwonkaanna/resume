@@ -44,6 +44,21 @@ body {
   color: #2a2a2a;
 }
 
+.blue-text {
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+}
+
+.blue-text:hover {
+  color: #9c37ca;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+}
+
 .bio-occupation,
 .bio-about {
   font-size: 14px;
@@ -51,7 +66,7 @@ body {
 }
 
 .bio-about, .blue-text {
-  color: #9c37ca;
+  color: #2a2a2a;
   font-weight: bold;
   font-style: italic;
 }
@@ -68,10 +83,19 @@ body {
   color: #9c37ca;
   font-size: 14px;
   line-height: 24px;
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  text-decoration: none;
 }
 
 .projects-link:hover {
   color: #ff086f;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
 }
 
 .jobs-title,
@@ -102,9 +126,14 @@ body {
 }
 
 .accent {
-  color: #ff086f;
+  color: #9c37ca;
+  transition: all 500ms ease-in-out;
 }
 
+.accent:hover {
+  color: #ff086f;
+  transition: all 500ms ease-in-out;
+}
 /* ========= left-side ========= */
 
 .left-side {
